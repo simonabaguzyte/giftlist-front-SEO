@@ -25,22 +25,12 @@ function Nav() {
         </ul>
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <a className="nav-link" href="blog.html">
+            <Link className="nav-link" to="/blog">
               Blog
-            </a>
+            </Link>
           </li>
         </ul>
         <ul className="navbar-nav">
-          <li className="nav-item">
-            <a className="nav-link" href="contact-us.html">
-              Contact us
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">
-              Edit profile
-            </a>
-          </li>
           <li className="nav-item">
             <Link className="nav-link" to="/">
               Sign out

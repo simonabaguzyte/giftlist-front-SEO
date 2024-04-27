@@ -9,7 +9,8 @@ import GiftLists from "./routes/giftLists";
 import NewGiftList from "./routes/newGiftList";
 import GiftList from "./routes/giftList";
 import NewGift from "./routes/newGift";
-// import BlogPage from "./routes/blog";
+import BlogPage from "./routes/blog";
+import Article from "./routes/article";
 
 // console.lo
 
@@ -42,10 +43,14 @@ const router = createBrowserRouter([
     path: "/my-lists/:id/new",
     element: <NewGift />,
   },
-  // {
-  //   path: "/blog",
-  //   element: <BlogPage />,
-  // },
+  {
+    path: "/blog",
+    element: <BlogPage />,
+  },
+  {
+    path: "/article/:id",
+    element: <Article />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

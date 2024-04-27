@@ -1,11 +1,11 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 
 function BlogFigure({ title, author, date, id }) {
-  const history = useHistory();
+  // const history = useHistory();
 
   const handleClick = () => {
-    history.push(`/blog/${id}`);
+    // history.push(`/blog/${id}`);
   };
 
   return (
