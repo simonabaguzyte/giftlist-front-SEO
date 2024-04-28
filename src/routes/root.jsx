@@ -36,7 +36,7 @@ function Root() {
         <Subheader />
 
         <div className="my-4">
-          <LinkButton name="Log In" to="/login" />
+          <LinkButton name="Log In" to="/giftlist-front-SEO/login" />
           <LinkButton name="Register" to="/register" />
         </div>
       </div>

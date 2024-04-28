@@ -22,7 +22,7 @@ import AffordableGiftsImage from "src/img/articles/articles/affordable-gifts.jpg
 function BlogPage() {
   const navigate = useNavigate();
 
-  const handleClick = () => navigate(`/article/${1}`);
+  const handleClick = () => navigate(`/giftlist-front-SEO/article/${1}`);
 
   return (
     <PageWrapper>

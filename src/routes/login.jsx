@@ -19,15 +19,15 @@ function LoginForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch("http://localhost:8000/token", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(formData).toString(),
-    });
+    // const response = await fetch("http://localhost:8000/token", {
+    //   method: "POST",
+    //   headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    //   body: new URLSearchParams(formData).toString(),
+    // });
 
-    const responseData = await response.json();
-    localStorage.setItem("accessToken", responseData.access_token);
-    navigate("/my-lists");
+    // const responseData = await response.json();
+    // localStorage.setItem("accessToken", responseData.access_token);
+    navigate("/giftlist-front-SEO/my-lists");
   };
 
   return (

@@ -16,39 +16,39 @@ import Article from "./routes/article";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/giftlist-front-SEO/",
     element: <Root />,
   },
   {
-    path: "/register",
+    path: "/giftlist-front-SEO/register",
     element: <Register />,
   },
   {
-    path: "/login",
+    path: "/giftlist-front-SEO/login",
     element: <Login />,
   },
   {
-    path: "/my-lists",
+    path: "/giftlist-front-SEO/my-lists",
     element: <GiftLists />,
   },
   {
-    path: "/my-lists/new",
+    path: "/giftlist-front-SEO/my-lists/new",
     element: <NewGiftList />,
   },
   {
-    path: "/my-lists/:id",
+    path: "/giftlist-front-SEO/my-lists/:id",
     element: <GiftList />,
   },
   {
-    path: "/my-lists/:id/new",
+    path: "/giftlist-front-SEO/my-lists/:id/new",
     element: <NewGift />,
   },
   {
-    path: "/blog",
+    path: "/giftlist-front-SEO/blog",
     element: <BlogPage />,
   },
   {
-    path: "/article/:id",
+    path: "/giftlist-front-SEO/article/:id",
     element: <Article />,
   },
 ]);

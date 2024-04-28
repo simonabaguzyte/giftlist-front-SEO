@@ -25,7 +25,7 @@ function Nav() {
         </ul>
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <Link className="nav-link" to="/blog">
+            <Link className="nav-link" to="/giftlist-front-SEO/blog">
               Blog
             </Link>
           </li>
